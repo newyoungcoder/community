@@ -1,18 +1,18 @@
 package life.majiang.community.model;
 
 public class User {
-    private int id;
+    private Integer id;
     private String accountId;
     private String name;
     private String token;
     private Long gmtCreate;
     private Long gmtModified;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
